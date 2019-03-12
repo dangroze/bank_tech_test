@@ -18,7 +18,7 @@ RSpec.describe Bank do
       expect(bank.balance).to eq(0)
     end
   end
-  context('transaction details') do
+  context('Transaction details') do
     it('records date, amount, credit and balance on deposit') do
       allow(bank).to receive(:date).and_return(a_date)
       bank.deposit(an_amount)

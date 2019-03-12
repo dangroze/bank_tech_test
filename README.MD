@@ -19,3 +19,47 @@ date || credit || debit || balance
 13/01/2012 || 2000.00 || || 3000.00
 10/01/2012 || 1000.00 || || 1000.00
 ```
+### My Test solution is as follows
+
+* User stories
+```
+As a user,
+So that I can know how to manage my money
+I want to see my balance
+```
+
+```
+As a user,
+So that I can increase the balance
+I want to deposit money
+```
+
+```
+As a user,
+So I can use money
+I want to be able to withdraw money
+```
+
+```
+As a user,
+I want to be able to print out a statement in the following format
+
+date || credit || debit || balance
+```
+### To run the program: 
+
+* Fork or clone this repository
+```
+git clone https://github.com/dangroze/bank_tech_test.git
+```
+* Open terminal, go to the file location
+* Run bundle install
+* type in: pry
+* follow instructions in the screenshot:
+
+![User interation](image/pry_example.png)
+
+## Testing the app
+
+* Open terminal, go to cloned folder
+* Type in rspec
