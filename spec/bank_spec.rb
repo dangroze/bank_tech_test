@@ -1,6 +1,6 @@
 require 'bank'
 RSpec.describe Bank do
-  subject(:bank) {described_class.new}
+  subject(:bank) { described_class.new }
   let(:an_amount) { 1000 }
   let(:a_date) { '12/03/2019' }
   let(:type) { ' ' }
